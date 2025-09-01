@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import data from '.data/ders.json';
+import data from 'data/ders.json';
 
 export const dynamic = 'force-dynamic';
 
