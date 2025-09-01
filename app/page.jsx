@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { Card } from 'components/card';
 import { ContextAlert } from 'components/context-alert';
 import { Markdown } from 'components/markdown';
-import { RandomQuote } from 'components/random-quote';
+import { GET } from 'components/random-quote';
 import { getNetlifyContext } from 'utils';
 
 const contextExplainer = `
