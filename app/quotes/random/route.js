@@ -3,7 +3,7 @@ import data from 'data/ders.json';
 
 export const dynamic = 'force-dynamic';
 
-export async function GET() {
+export async function RandomQuote() {
     // Bugünün tarihini al
     const today = new Date();
     // Günü ve ayı iki haneli olacak şekilde ayarla (örn: 5 -> 05)
